@@ -55,7 +55,6 @@ LUFFY/
 - **Data Processing**: Batch dimension operations and tensor reshaping
 
 ### 📝 Complete TODO List
-
 - [ ] **luffy/deepscaler/utils.py:45** - Add logging for API calls and errors
 - [ ] **luffy/deepscaler/utils.py:46** - Support batch processing for multiple prompts
 - [ ] **luffy/deepscaler/utils.py:47** - Add timeout configuration for API calls
@@ -110,9 +109,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/protocol.py:136** - Optimize tensor view operations for performance
 - [ ] **luffy/verl/verl/protocol.py:137** - Add error handling for invalid batch dimensions
 - [ ] **luffy/verl/verl/protocol.py:169** - (zhangchi.usc1992) add consistency check
-- [ ] **luffy/verl/verl/protocol.py:252** - we can actually lift this restriction if needed
 - [ ] **luffy/verl/verl/protocol.py:265** - we can actually lift this restriction if needed
-- [ ] **luffy/verl/verl/protocol.py:338** - (zhangchi.usc1992) whether to copy
 - [ ] **luffy/verl/verl/protocol.py:351** - (zhangchi.usc1992) whether to copy
 - [ ] **luffy/verl/verl/single_controller/ray/base.py:439** - create a class with customizable name
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_3_1/arg_utils.py:64** - (shengguangming): delete the unused args
@@ -280,3 +277,4 @@ LUFFY/
 2. Implement the functionality
 3. Test your implementation
 4. Update this README when TODOs are completed
+
